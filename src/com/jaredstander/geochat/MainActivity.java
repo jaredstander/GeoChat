@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
 	    String message = editText.getText().toString(); 
 
 	    final Map<String, String> data = new HashMap<String, String>();
-	    data.put("title", "This location has a message for you:");
+	    data.put("title", "GeoMessage:");
 	    data.put("body", message);
 
 	    final JSONObject jsonData = new JSONObject(data);
