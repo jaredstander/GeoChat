@@ -1,4 +1,4 @@
-GeoChat_Server::Application.routes.draw do
+GeoChatServer::Application.routes.draw do
 
 
   post "/send_message" => "chats#message" 
