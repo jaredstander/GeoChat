@@ -1,0 +1,12 @@
+<h1>Send Secret Messages</h1>
+
+<%= form_for(@message) do |f| %>
+  <%= f.label :to, "To" %>
+  <%= f.text_field :to %>
+  <%= f.label :text, "text" %>
+  <%= f.text_field :text %>
+  <%= f.submit "Submit", :disable_with => 'Submiting...' %>
+<% end %>
+
+
+

@@ -1,4 +1,11 @@
-GeoChatServer::Application.routes.draw do
+GeoChat_Server::Application.routes.draw do
+
+
+  post "/send_message" => "chats#message" 
+  resources :secret_messages
+
+  root "chats#index"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

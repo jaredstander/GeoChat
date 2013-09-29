@@ -15,3 +15,4 @@ class SecretMessagesController < ApplicationController
 
 
 end
+
